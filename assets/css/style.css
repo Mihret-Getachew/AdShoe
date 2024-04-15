@@ -1,0 +1,46 @@
+body {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 25px;
+}
+.nav-link {
+  font-family: "Playfair Display", serif;
+}
+.container-fluid,
+.label-form,
+.button-form,
+.title-form {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.img-fluid {
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
